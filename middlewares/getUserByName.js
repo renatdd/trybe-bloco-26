@@ -1,4 +1,4 @@
-const users = require('./users');
+const users = require('../data/users');
 
 const getUserByName = (req, res, next) => {
   const { name } = req.params;

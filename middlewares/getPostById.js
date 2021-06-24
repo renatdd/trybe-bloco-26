@@ -1,4 +1,4 @@
-const posts = require('./posts');
+const posts = require('../data/posts');
 
 const getPostById = (req, res, next) => {
   const { id } = req.params;
